@@ -51,3 +51,10 @@
 .colmar-logo {
   width: 40px;
 }
+
+nav.mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

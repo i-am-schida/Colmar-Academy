@@ -201,6 +201,11 @@ button:hover {
   margin: 34px 0;
 }
 
+#for-companies-mobile {
+  text-align: center;
+  margin: 34px 0;
+}
+
 .section4-final {
   display: flex;
   padding-bottom: 34px;

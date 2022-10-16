@@ -4,6 +4,11 @@
   nav.mobile {
     display: none;
   }
+  /* Main */
+  /* Section 4 */
+  #for-companies-mobile {
+    display: none;
+  }
 }
 
 
@@ -11,12 +16,6 @@
 
 @media only screen and (max-width: 700px) {
   /* Header */
-  nav.mobile {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
   nav.right-section {
     display: none;
   }
@@ -36,15 +35,13 @@
     width: 100%;
     margin-top: 32px;
   }
-  }
   /* Section 2 */
   
   /* Section 3 */
 
   /* Section 4 */
-  #for-companies-mobile {
-    text-align: center;
-    margin: 34px 0;
+  #for-companies {
+    display: none;
   }
-
   /* Footer */
+}
