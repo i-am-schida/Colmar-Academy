@@ -1,0 +1,19 @@
+body {
+  font-family: Roboto, Arial;
+  margin-top: 105px;
+  margin-left: 24px;
+  margin-right: 24px;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}

@@ -1,0 +1,53 @@
+.header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: whitesmoke;
+}
+
+.left-section {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  padding-right: 8px;
+  align-items: center;
+}
+
+.right-section a {
+  margin-right: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+}
+
+.right-section a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+.colmar {
+  font-weight: 700;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.academy {
+  font-weight: 100;
+  color: rgb(90, 90, 90);
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.colmar-logo {
+  width: 40px;
+}
