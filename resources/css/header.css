@@ -1,3 +1,5 @@
+/* Header */
+
 .header {
   height: 64px;
   display: flex;
@@ -10,29 +12,11 @@
   z-index: 100;
   background-color: whitesmoke;
 }
-
+/* left side */
 .left-section {
   padding-left: 24px;
   display: flex;
   align-items: center;
-}
-
-.right-section {
-  display: flex;
-  padding-right: 8px;
-  align-items: center;
-}
-
-.right-section a {
-  margin-right: 16px;
-  cursor: pointer;
-  text-decoration: none;
-  color: red;
-}
-
-.right-section a:hover {
-  color: blue;
-  transition: 0.5s;
 }
 
 .colmar {
@@ -51,10 +35,45 @@
 .colmar-logo {
   width: 40px;
 }
+/* right side */
+.right-section {
+  display: flex;
+  padding-right: 8px;
+  align-items: center;
+}
 
+.right-section a {
+  margin-right: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+}
+
+.right-section a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+/* Mobile */
 nav.mobile {
   width: 100%;
+  display: flex
+}
+
+.mobile-links-container {
+  width: 25%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.mobile-links-container:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
+nav.mobile a:hover {
+  color: red;
 }

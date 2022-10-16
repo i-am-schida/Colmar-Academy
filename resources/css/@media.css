@@ -9,6 +9,9 @@
   #for-companies-mobile {
     display: none;
   }
+  .section2-right-mobile {
+    display: none;
+  }
 }
 
 
@@ -36,7 +39,10 @@
     margin-top: 32px;
   }
   /* Section 2 */
-  
+  .section2-left,
+  .section2-right {
+    display: none;
+  }
   /* Section 3 */
 
   /* Section 4 */

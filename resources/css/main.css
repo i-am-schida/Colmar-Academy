@@ -142,6 +142,53 @@ button:hover {
   margin: 8px 0;
 }
 
+/* Mobile */
+.section2-right-mobile {
+  width: 100%;
+}
+
+.section2-right-container-mobile {
+  border: 1px solid blue;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.section2-right-txt-mobile {
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.section2-right-txt-mobile a {
+  text-decoration: none;
+  color: red;
+  font-size: small;
+}
+
+.section2-right-txt-mobile p {
+  opacity: 0.7;
+  margin: 8px 0;
+}
+
+.section2-right-txt-mobile h3 {
+  margin-top: 16px;
+}
+
+.section2-right-mobile img {
+  width: 100%;
+}
+
+.section2-right-txt-mobile a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.section2-right-container-mobile:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
 /* Section 3 */
 
 #online {
