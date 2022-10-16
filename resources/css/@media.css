@@ -43,5 +43,14 @@
   #for-companies {
     display: none;
   }
+  .section4-right-container {
+    display: none;
+  }
+  .section4-left-txt {
+    display: none;
+  }
+  .section4-left-container {
+    width: 100%;
+  }
   /* Footer */
 }
