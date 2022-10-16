@@ -4,9 +4,6 @@
   nav.mobile {
     display: none;
   }
-  #for-companies-mobile {
-    display: none;
-  }
 }
 
 
@@ -42,20 +39,12 @@
   }
   /* Section 2 */
   
-  .section2-right {
-    width: 100%;
-  }
+  /* Section 3 */
+
   /* Section 4 */
-  .section4-right-container {
-    display: none;
-  }
-  .section4-left-txt {
-    display: none;
-  }
-  #for-companies {
-    display: none;
-  }
   #for-companies-mobile {
     text-align: center;
     margin: 34px 0;
   }
+
+  /* Footer */
