@@ -110,6 +110,13 @@ button:hover {
   cursor: pointer;
 }
 
+.section2-right-container:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
 .section2-right-img {
   width: 35%;
 }
@@ -126,7 +133,7 @@ button:hover {
 }
 
 .section2-right-txt a:hover {
-  color: blue;
+  color: white;
   transition: 0.5s;
 }
 
@@ -158,6 +165,13 @@ button:hover {
   cursor: pointer;
 }
 
+.section3-container:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
+}
+
 .section3-container-img {
   width: 100%;
 }
@@ -173,6 +187,7 @@ button:hover {
 
 .section3-container-txt {
   line-height: 25px;
+
 }
 
 .section3-border {
