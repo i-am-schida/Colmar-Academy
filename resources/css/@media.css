@@ -4,18 +4,18 @@
   nav.mobile {
     display: none;
   }
-  /* Main */
-  /* Section 4 */
   #for-companies-mobile {
     display: none;
   }
   .section2-right-mobile {
     display: none;
   }
+  .section3-mobile {
+    display: none;
+  }
 }
 
-
-/* Mobile/Tablet */
+/* Mobile */
 
 @media only screen and (max-width: 700px) {
   /* Header */
@@ -44,7 +44,9 @@
     display: none;
   }
   /* Section 3 */
-
+  .section3-container {
+    display: none;
+  }
   /* Section 4 */
   #for-companies {
     display: none;
@@ -59,4 +61,7 @@
     width: 100%;
   }
   /* Footer */
+  .footer-right {
+    display: none;
+  }
 }

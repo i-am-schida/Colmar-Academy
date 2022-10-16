@@ -12,7 +12,9 @@
   z-index: 100;
   background-color: whitesmoke;
 }
+
 /* left side */
+
 .left-section {
   padding-left: 24px;
   display: flex;
@@ -35,7 +37,9 @@
 .colmar-logo {
   width: 40px;
 }
+
 /* right side */
+
 .right-section {
   display: flex;
   padding-right: 8px;
@@ -53,7 +57,9 @@
   color: blue;
   transition: 0.5s;
 }
+
 /* Mobile */
+
 nav.mobile {
   width: 100%;
   display: flex

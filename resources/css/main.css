@@ -10,10 +10,14 @@
   border-bottom: 2px solid blue;
 }
 
+/* left side */
+
 .section1-left {
   width: 60%;
   margin-right: 24px;
 }
+
+/* right side */
 
 .section1-right {
   width: 40%;
@@ -239,6 +243,32 @@ button:hover {
 
 .section3-border {
   border-bottom: 2px solid blue;
+}
+
+/* Mobile */
+
+.section3-mobile {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#first-container {
+  margin-top: 0;
+}
+
+.section3-container-mobile {
+  padding: 24px;
+  color: black;
+  border: 1px solid blue;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.section3-container-mobile:hover {
+  background-color: blue;
+  opacity: 0.5;
+  transition: 0.5s;
+  color: white;
 }
 
 /* Section 4 */
