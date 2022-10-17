@@ -5,4 +5,4 @@ HTML/CSS : 'Build a Website with HTML, CSS, and Github Pages'
 
 io: https://i-am-schida.github.io/Colmar-Academy/
 
-feedback:
+feedback: https://discuss.codecademy.com/t/feedback-colmar-academy/701620
